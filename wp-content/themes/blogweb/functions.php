@@ -15,10 +15,7 @@ function followandrew_register_scripts(){
     wp_enqueue_script('followandrew-jquery','https://code.jquery.com/jquery-3.4.1.slim.min.js', array(), '3.4.1',true);
 }
 
-function followandrew_register_scripts(){
 add_action('wp_enqueue_scripts', 'followandrew_register_scripts');
-
-
 
 
 
