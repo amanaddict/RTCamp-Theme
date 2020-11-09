@@ -1,7 +1,12 @@
 <?php
 
-//adds dyn. title tag support-so that wordpress does it dynamically
-add_theme_support('title_tag');
+//adds dyn. title tag support so that wordpress does it dynamically & automatically.
+//this title will be a default title which could be changed by the user via settings.
+function followandrew_theme_support(){
+    add_theme_support('title-tag');
+}
+add_action('after_setup_theme','followandrew_theme_support');
+
 
 /*STEP1- Enqueing the CDN and js and booststrap and fonawesome dynamically using wordpress and php */
 /*For CSS, fontawesome and bootstrap4 loading*/
