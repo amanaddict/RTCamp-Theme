@@ -1,4 +1,4 @@
-<!--dynamically gettting header using wordpress function-->
+<!--Including header using wordpress php function-->
 <?php
 get_header();
 ?>    
@@ -68,12 +68,8 @@ get_header();
     
     </div>
     
-    <!-- Bootstrap Javascript -->          
-    <?php
-        wp_footer();
-    ?>
-	
-
-</body>
-</html> 
+    <!--Including footer using wordpress php function-->
+   <?php
+      get_footer();
+   ?>  
 

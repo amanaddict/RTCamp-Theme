@@ -1,5 +1,8 @@
 <?php
 
+//adds dyn. title tag support-so that wordpress does it dynamically
+add_theme_support('title_tag');
+
 /*STEP1- Enqueing the CDN and js and booststrap and fonawesome dynamically using wordpress and php */
 /*For CSS, fontawesome and bootstrap4 loading*/
 function followandrew_register_styles(){

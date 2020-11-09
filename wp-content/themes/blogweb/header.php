@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-    <title>Blog Site Template</title>
+    
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +11,6 @@
     <link rel="shortcut icon" href="images/logo.png"> 
     
     <!-- FontAwesome CSS, Bootstrap CSS, Style CSS -->
-	<!-- -->
-	<!-- -->
     <?php
     wp_head(); 
     ?>
