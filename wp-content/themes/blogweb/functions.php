@@ -1,6 +1,7 @@
 <?php
 
 /*STEP1- Enqueing the CDN and js and booststrap and fonawesome dynamically using wordpress and php */
+/*For CSS, fontawesome and bootstrap4 loading*/
 function followandrew_register_styles(){
     $version = wp_get_theme()->get('Version'); /*dynamically getting the version*/
 
@@ -11,7 +12,7 @@ function followandrew_register_styles(){
 
 add_action('wp_enqueue_scripts', 'followandrew_register_styles' ); /*Registering the  scripts*/
 
-
+/*for js and jquery loading*/
 function followandrew_register_scripts(){
     wp_enqueue_script('followandrew-jquery','https://code.jquery.com/jquery-3.4.1.slim.min.js', array(), '3.4.1',true);
     wp_enqueue_script('followandrew-popper','https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', array(), '1.16.0',true);

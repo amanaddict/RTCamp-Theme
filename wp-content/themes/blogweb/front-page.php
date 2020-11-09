@@ -10,9 +10,9 @@
     <meta name="author" content="https://youtube.com/FollowAndrew">    
     <link rel="shortcut icon" href="images/logo.png"> 
     
-    <!-- FontAwesome CSS-->
-	<!-- Bootstrap CSS-->
-	<!-- Theme CSS -->
+    <!-- FontAwesome CSS, Bootstrap CSS, Style CSS -->
+	<!-- -->
+	<!-- -->
     <?php
     wp_head(); 
     ?>
