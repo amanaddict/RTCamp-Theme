@@ -1,7 +1,8 @@
 <!--Including header using wordpress php function-->
 <?php
 get_header();
-?>    
+?> 
+<!---->   
     <div class="main-wrapper">
 	    <header class="page-title theme-bg-light text-center gradient py-5">
 			<h1 class="heading">Blog Home gPage Heading</h1>
