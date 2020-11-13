@@ -1,4 +1,4 @@
-<!--Including header using wordpress php function-->
+<!--Including header or header.php file using wordpress php function-->
 <?php
 get_header();
 ?> 
