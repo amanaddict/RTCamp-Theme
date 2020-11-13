@@ -12,7 +12,7 @@
     
     <!-- FontAwesome CSS, Bootstrap CSS, Style CSS -->
     <?php
-    wp_head();  //getting the dyn. CSS form function.php file
+    wp_head();  //This wordpress inbuilt func. gets the dyn. CSS form function.php file
     ?>
 
 </head> 
