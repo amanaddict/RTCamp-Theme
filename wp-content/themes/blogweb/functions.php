@@ -19,7 +19,8 @@ function followandrew_register_styles(){
 }
 //Hook for the above registered function
 add_action('wp_enqueue_scripts', 'followandrew_register_styles' ); /*Registering the  scripts*/
-//Working-> It means that whenever 'wp_enqueue_scripts' functionis executed then execute the 'followandrew_register_styles' also. 
+//Working-> It means that whenever wordpress hook i.e 'wp_enqueue_scripts' function is executed 
+//then execute the 'followandrew_register_styles' also. 
 
 /*for js and jquery loading*/
 function followandrew_register_scripts(){

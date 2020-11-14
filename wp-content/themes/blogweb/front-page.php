@@ -3,12 +3,9 @@
 get_header();
 ?> 
 <!---->   
-    <div class="main-wrapper">
-	    <header class="page-title theme-bg-light text-center gradient py-5">
-			<h1 class="heading">Blogging Home Page Heading Goes Here!!</h1>
-		</header>
+    
 		<article class="content px-3 py-5 p-md-5">
-	    <div class='container'>
+	    <!-- <div class='container'>
 			<p class="mt-3 lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
 
 			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -59,7 +56,7 @@ get_header();
 					</div>
 				  </div>
 				</div>
-		</div>
+		</div> -->
 	    </article>
 	    <footer class="footer text-center py-2 theme-bg-dark">
 		   
