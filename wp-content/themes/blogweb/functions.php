@@ -5,7 +5,7 @@
 function followandrew_theme_support(){
     add_theme_support('title-tag'); // for custom title
     add_theme_support('custom-logo'); // for custom logo/img
-    add_theme_support('post-thumbnails'); // 
+    add_theme_support('post-thumbnails'); // for images and thumbnails
 }
 add_action('after_setup_theme','followandrew_theme_support');
 
@@ -44,6 +44,26 @@ function followandrew_register_scripts(){
 
 add_action('wp_enqueue_scripts', 'followandrew_register_scripts');
 
+/* Registering Widget Areas */
+//Helps users to customize different 
+//content and areas in the template
 
+function followandrew_widget_areas(){
+    register_sidebar(
+        array(
+            'before_title' => '<h2>',
+            'after_title' => '</h2>',
+            'before_widget' => '',
+            'after_widget' => '',
+        ),
+        array(
+            'name' => 'Sidebar Area',
+            'id' => 'sidebar-1',
+            'description' => 'Sidebar Widget Area',
+        )
+    );
+}
+
+add_action('widgets_init', 'followandrew_widget_areas');
 
 ?>
