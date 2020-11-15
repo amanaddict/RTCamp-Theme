@@ -1,7 +1,6 @@
 <!--content-article.php file-->
-<!--
-    This file is checked for article type of posts
--->
+<!--This file is checked for article type of posts-->
+
 
 <div class="container">
     
