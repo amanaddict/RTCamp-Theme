@@ -18,7 +18,11 @@ get_header();
                                                                            //Working==> get_template_part('folder_link_or_url','type_of_post');
 					}
 				}
-			?>
+            ?>
+            
+            <?php
+                
+            ?>
 	    </article>
 	    
     
