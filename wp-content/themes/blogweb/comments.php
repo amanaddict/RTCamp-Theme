@@ -23,9 +23,15 @@
 						</div><!-- .comments-header -->
 
 						<div class="comments-inner">
+                        
+                        <!--FOr each and every individual comments-->
+                        <?php
+                            wp_list_comments(
+                            ); 
+                        ?>
+                            
+                        
 
-							
-							
 						</div><!-- .comments-inner -->
 
 					</div><!-- comments -->
