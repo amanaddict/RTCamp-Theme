@@ -3,8 +3,8 @@
 //adds dyn. title tag support so that wordpress does it dynamically & automatically.
 //this title will be a default title which could be changed by the user via settings.
 function followandrew_theme_support(){
-    add_theme_support('title-tag');
-    add_theme_support('custom-logo');
+    add_theme_support('title-tag'); // for custom title
+    add_theme_support('custom-logo'); // for custom logo/img
 }
 add_action('after_setup_theme','followandrew_theme_support');
 
