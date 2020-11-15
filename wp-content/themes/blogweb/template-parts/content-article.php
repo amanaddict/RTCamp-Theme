@@ -13,12 +13,14 @@
             ?>
             <span class="comment"><a href="#comments"><i class='fa fa-comment'></i> <?php comments_number(); ?> </a></span>
         </div>
-	</header>
-
+    </header>
+    
+    <!--Loading up content(i.e post) from single.php file-->
    <?php 
        the_content(); 
     ?>
 
+    <!--Loading up comments.php file or comments template-->
     <?php
        comments_template();
     ?>
