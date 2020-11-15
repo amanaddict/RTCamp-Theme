@@ -1,5 +1,4 @@
-<!--archive.php-->
-<!--This file is meant for single posts-->
+<!--index.php-->
 
 <!--Including header or header.php file using wordpress php function-->
 <?php
@@ -19,10 +18,12 @@ get_header();
 					}
 				}
             ?>
-            
+
+            <!--Adding Pagination-->
             <?php
-                
+                the_posts_pagination();
             ?>
+            
 	    </article>
 	    
     
