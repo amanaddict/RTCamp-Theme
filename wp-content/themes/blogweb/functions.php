@@ -7,6 +7,16 @@ function followandrew_theme_support(){
 }
 add_action('after_setup_theme','followandrew_theme_support');
 
+/* Enabling WordPress Menu */
+function followandrew_menus(){
+    $locations = array(
+        'primary' => "Desktop Primary Left Side Menu",
+        'footer' => "Footer Menu Items"
+    );
+
+    register_nav_menus($locations);
+}
+add_action('init','followandrew_menus');
 
 /*STEP1- Enqueing the CDN and js and booststrap and fonawesome dynamically using wordpress and php */
 /*For CSS, fontawesome and bootstrap4 loading*/
