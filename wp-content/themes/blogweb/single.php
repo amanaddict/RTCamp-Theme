@@ -8,9 +8,7 @@ get_header();
 <!---->   
     
 		<article class="content px-3 py-5 p-md-5">
-			<!--
-				WordPress Loop: It is an iterator that requests DB and gets the data from there
-			-->
+			<!--WordPress Loop-->
 			<?php
 				if ( have_posts() ) {
 					while( have_posts() ){
