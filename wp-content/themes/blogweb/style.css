@@ -111,7 +111,7 @@ h6 {
     height: 100vh;
     width: var(--sidebar-width);
     background: var(--primary);
-    color: #fff
+    color: #fff;
 }
 .header .site-title {
     color:var(--white);
@@ -154,19 +154,19 @@ h6 {
     font-weight: bold
 }
 
-.header .nav-item.active a {
+.header .nav-item.active .nav-link {
     color: rgba(0, 0, 0, 0.5)
 }
 
-.header .nav-item.active a:hover {
+.header .nav-item.active .nav-link:hover {
     text-decoration: none
 }
 
-.header .nav-item a {
+.header .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.8)
 }
 
-.header .nav-item a:hover {
+.header .nav-item .nav-link:hover {
     text-decoration: underline;
     color: rgba(0, 0, 0, 0.6)
 }
