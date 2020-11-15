@@ -14,7 +14,8 @@ get_header();
 					while( have_posts() ){
 						the_post();
                         
-                        get_template_part('template-parts/content'); //checks the type of post from template-parts folder.
+                        get_template_part('template-parts/content','article'); //checks the type of post from template-parts folder.
+                                                                           //Working==> get_template_part('folder_link_or_url','type_of_post');
 					}
 				}
 			?>
