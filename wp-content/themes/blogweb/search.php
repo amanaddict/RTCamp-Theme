@@ -1,5 +1,5 @@
 <!--search.php-->
-<!--This file is meant for searching posts from 404.php page-->
+<!--This file is meant for searching posts from 404.php page or from any other page's footer-->
 
 <!--Including header or header.php file using wordpress php function-->
 <?php
