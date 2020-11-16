@@ -20,7 +20,7 @@
 <body>
     
     <header class="header text-center">	    
-	    <a class="site-title pt-lg-4 mb-0" href="index.html">
+	    <a class="site-title pt-lg-4 mb-0" href="http://localhost/RTCamp-Theme/">
 			<?php echo get_bloginfo('name'); ?>
 		</a>
         
@@ -52,6 +52,12 @@
 					);
 				?>
 
+				<!--FOR WIDGET AREA-->
+				<!--Outputting the widget here-->
+				<?php
+					dynamic_sidebar('sidebar-1');  
+				?>
+
 				<!-- <ul class="navbar-nav flex-column text-sm-center text-md-left">
 					<li class="nav-item active">
 					    <a class="nav-link" href="index.html"><i class="fas fa-home fa-fw mr-2"></i>Blog Home <span class="sr-only">(current)</span></a>
@@ -70,20 +76,16 @@
 					</li>
 				</ul> -->
 				<hr>
-				<ul class="social-list list-inline py-3 mx-auto">
+				<!-- <ul class="social-list list-inline py-3 mx-auto">
 					<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
 					<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
 					<li class="list-inline-item"><a href="#"><i class="fab fa-github-alt fa-fw"></i></a></li>
 					<li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li>
 					<li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li>
-				</ul>
+				</ul> -->
 			</div>
 
-			<!--FOR WIDGET AREA-->
-			<!--Outputting the widget here-->
-			<?php
-				dynamic_sidebar('sidebar-1');  
-			?>
+			
 		</nav>
 	</header>
 	<div class="main-wrapper">
